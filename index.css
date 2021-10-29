@@ -1,3 +1,7 @@
+header{
+    justify-content: center;
+}
+
 h1{
     display: flex;
     justify-content: center;
@@ -10,42 +14,37 @@ footer{
     justify-content: center;
 }
 
-#firstdiv{
-    width: 25%;
+#logo{
+    width: 500px;
     display: flex;
     flex-wrap: wrap; 
 }
 
-#red, #green, #blue, #gold{
+#colors{
     padding: 24%;
     margin: 3px;
     border-radius: 30px;
     right: 7px;
+    box-shadow: 10px 17px
 }
 
-#red{
-    background-color: crimson;
-    box-shadow: 10px 17px rgb(197, 48, 78);
+.red{
+    background-color: crimson; 
 }
 
-#green{
+.green{
     background-color: lawngreen;
-    box-shadow: 10px 17px rgb(155, 233, 77);
-
 }
 
-#blue{
+.blue{
     background-color: royalblue;
-    box-shadow: 10px 17px rgb(80, 115, 219);
 }
 
-#gold{
+.gold{
     background-color: gold;
-    box-shadow: 10px 17px rgb(238, 209, 45);
 }
 
 button{
-    position: fixed;
-    top: 250px;
-    left: 455px;
+margin-left: 500px;
+width: 75px;
 }
