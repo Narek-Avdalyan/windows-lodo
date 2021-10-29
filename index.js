@@ -9,7 +9,7 @@ randomArr = () => {
     return Math.floor(Math.random() * 300);
 }
 
-changecolors = () => {
+changeColors = () => {
 document.getElementById("foot").innerHTML = "";
 const newdiv = document.createElement("div");
 newdiv.setAttribute("id", "logo");
