@@ -4,13 +4,13 @@ const thirdSquare = document.getElementById("square3");
 const lastSquare = document.getElementById("square4");
 
 const changeColors = () => {
-    const squeareClass1 =  thirdSquare.className;
-    const squeareClass2 =  firstSquare.className;
-    const squeareClass3 =  lastSquare.className;
-    const squeareClass4 =  secondSquare.className;
+    const squareClass1 =  thirdSquare.className;
+    const squareClass2 =  firstSquare.className;
+    const squareClass3 =  lastSquare.className;
+    const squareClass4 =  secondSquare.className;
 
-    firstSquare.className = squeareClass1;
-    secondSquare.className = squeareClass2;
-    thirdSquare.className = squeareClass3;
-    lastSquare.className = squeareClass4;
+    firstSquare.className = squareClass1;
+    secondSquare.className = squareClass2;
+    thirdSquare.className = squareClass3;
+    lastSquare.className = squareClass4;
 }
