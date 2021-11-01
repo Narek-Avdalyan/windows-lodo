@@ -17,34 +17,37 @@ footer{
 #logo{
     width: 500px;
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 }
 
-#colors{
+.colors{
     padding: 24%;
     margin: 3px;
     border-radius: 30px;
     right: 7px;
-    box-shadow: 10px 17px
 }
 
 .red{
-    background-color: crimson; 
+    background-color: rgb(211,59,59); 
+    box-shadow: 10px 17px rgb(231, 62, 96)
 }
 
 .green{
-    background-color: lawngreen;
+    background-color: #63aa2e;
+    box-shadow: 10px 17px rgb(107, 180, 33)
 }
 
 .blue{
-    background-color: royalblue;
+    background-color: #424c9e;
+    box-shadow: 10px 17px rgb(50, 83, 180)
 }
 
 .gold{
-    background-color: gold;
+    background-color: #d6a90c;
+    box-shadow: 10px 17px rgb(204, 179, 36)
 }
 
 button{
-margin-left: 500px;
-width: 75px;
+    margin-left: 754px;
+    width: 75px;
 }
